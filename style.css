@@ -19,9 +19,8 @@
 }
 
 hr {
-    width: 500px;
+    width: 100%;
     height: 100px;
-    background-color: rgb(4, 4, 4);
     margin-bottom: 50px;
     margin-top: 10;
 }
@@ -71,9 +70,11 @@ span.slogan {
 }
 
 h5 {
-    font-size: 1.0rem;
+    font-size: 25px;
     margin-top: 80px;
     margin-bottom: 0px;
+    text-shadow: 1.5px;
+    text-align: center;
 }
 
 h4 {
@@ -86,10 +87,32 @@ h4 {
 
 .work {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .footer {
     text-align: center;
     padding: 20px 0;
     color: rgba(144, 144, 144, 0.556);
+}
+
+.work01 {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.work02 {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 133%;
+    height: 133%;
+}
+
+.work03 {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 109.7%;
+    height: 109.7%;
 }
