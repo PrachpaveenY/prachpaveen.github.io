@@ -5,7 +5,6 @@ My site is live at = https://prachpaveeny.github.io/prachpaveen.github.io/
 ====
 
 ### Details
-- Create a website to showcase my work
-- Can download my PDF
-- Created to showcase projects (All projects can be viewed through)
+- Show programming skills
+- Made to showcase projects (can view all projects)
 - Tools = HTML5, CSS3, JavaScript
