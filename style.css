@@ -8,6 +8,19 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.body {
+    margin: 0px;
+    width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    background-color: #0a192f;
+    color: #8892b0;
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
 .container {
     max-width: 600px;
     margin: 0 auto;
@@ -59,7 +72,7 @@ span.slogan {
 }
 .social-img ul li {
     display: inline;
-    background: rgba(217, 217, 217, 0.5);
+    background: rgb(227, 227, 227);
     padding: 12px;
     border-radius: 50%;
     cursor: pointer;
@@ -79,10 +92,20 @@ h5 {
 
 h4 {
     text-align: center;
-    font-size: 1.0rem;
+    font-size: 1.6rem;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.9rem;
     margin-top: 80px;
     margin-bottom: 0px;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .work {
@@ -93,7 +116,7 @@ h4 {
 .footer {
     text-align: center;
     padding: 20px 0;
-    color: rgba(144, 144, 144, 0.556);
+    color: rgba(255, 255, 255, 0.858);
 }
 
 .work01 {
@@ -116,3 +139,6 @@ h4 {
     width: 109.7%;
     height: 109.7%;
 }
+
+/* a {
+} */
