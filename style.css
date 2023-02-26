@@ -140,6 +140,19 @@ h3 {
     height: 109.7%;
 }
 
-
+.head-full {
+    background-image: linear-gradient(to right, #39ff88, #ffb73b, #4aa5ff, #80ff7a, #c978ff);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 300%;
+    background-position: -100%;
+    animation: animatedText 5s infinite alternate-reverse;
+    text-align:center;
+}
+@keyframes animatedText{
+    to{
+        background-position: 100%;
+    }
+}
 /* a {
 } */
